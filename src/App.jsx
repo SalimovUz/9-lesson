@@ -1,10 +1,10 @@
 import React from 'react'
+import Container from "./Components/Container"
 
 const App = () => {
   return (
     <div>
-      <h1>Hello World</h1>
-      <p>This</p>
+      <Container/>
     </div>
   )
 }
