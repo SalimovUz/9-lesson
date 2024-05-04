@@ -39,7 +39,7 @@ const Sidebar = () => {
           </div>
 
           <ul className="flex flex-col items-center gap-5">
-            <NavLink to="/" className="bg-blue-500 py-2 text-white rounded-lg px-4 text-bold text-lg w-full">
+            <NavLink to="/" className="hover:bg-blue-500 py-2 hover:text-white text-black rounded-lg px-4 text-bold text-lg w-full">
               Акции
             </NavLink>
             <NavLink to="/banner" className="hover:bg-blue-500 py-2 text-black hover:text-white rounded-lg px-4 text-bold text-lg w-full transition-all duration-500">
