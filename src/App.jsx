@@ -1,12 +1,13 @@
 import React from 'react'
-import CommentUser from './Components/CommentUser'
+import Header from './Components/Header'
+
 
 const App = () => {
   return (
     <div>
       <h1>Hello World</h1>
       <p>This</p>
-      <CommentUser/>
+      <Header/>
     </div>
   )
 }
