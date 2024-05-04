@@ -4,6 +4,7 @@ import Header from './Header'
 import Status from './Status'
 import Top from './Top'
 import ActiveStatus from './ActiveStatus'
+import ListDiscount from './ListDiscount'
 
 const Container = () => {
   return (
@@ -11,10 +12,7 @@ const Container = () => {
       <Sidebar/>
 
       <div className='flex flex-col'>
-        <Header/>
-        <Top/>
-        <Status/>
-        <ActiveStatus/>
+        <ListDiscount/>
       </div>
     </div>
   )
