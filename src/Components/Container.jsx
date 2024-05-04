@@ -9,7 +9,7 @@ const Container = () => {
       <Sidebar/>
 
       <div className='flex flex-col'>
-        {/* <ListDiscount/> */}
+        <Header/>
         <YourComponent/>
       </div>
     </div>

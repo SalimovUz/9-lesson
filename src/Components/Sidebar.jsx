@@ -7,7 +7,7 @@ import { RiMenuUnfold4Line2 } from "react-icons/ri";
 import { IoIosNotifications } from "react-icons/io";
 import { IoMdSettings } from "react-icons/io";
 import { NavLink } from "react-router-dom";
-import Banner from "../Pages/Banner";
+import "../App.css"
 
 
 const Sidebar = () => {
@@ -32,7 +32,7 @@ const Sidebar = () => {
 
         <span className="h-screen w-[3px] bg-slate-300 mr-4"></span>
 
-        <div className="right w-full flex flex-col gap-8 py-4">
+        <div id="hello"  className="sidebarr right w-full flex flex-col gap-8 py-4">
           <div className="flex items-center justify-between ">
             <h1 className="text-2xl text-blue-700 font-bold">Delever</h1>
             <RiMenuUnfold4Line2 />

@@ -65,16 +65,16 @@ const YourComponent = () => {
       <table className="border-collapse flex w-full mx-auto flex-col border-[#E5E9EB] border-2 rounded-lg p-5">
         <thead className="mx-auto border-collapse">
           <tr className="flex">
-            <th className="w-[440px] flex items-center justify-start">
+            <th className="w-[400px] flex items-center justify-start">
               Название
             </th>
-            <th className="w-[200px] flex items-center justify-center">
+            <th className="w-[170px] flex items-center justify-center">
               Начало акции
             </th>
-            <th className="w-[200px] flex items-center justify-center">
+            <th className="w-[170px] flex items-center justify-center">
               Конец акции
             </th>
-            <th className="w-[200px] flex items-center justify-center">
+            <th className="w-[170px] flex items-center justify-center">
               Статус
             </th>
           </tr>
@@ -82,16 +82,16 @@ const YourComponent = () => {
         <tbody className="mx-auto border-collapse">
           {data.map((item, index) => (
             <tr key={index} className="flex border-collapse">
-              <td className="border-collapse border-t border-b border-[#E5E9EB] w-[440px] h-[48px] flex items-center justify-start">
+              <td className="border-collapse border-t border-b border-[#E5E9EB] w-[400px] h-[48px] flex items-center justify-start">
                 <p>{item.name}</p>
               </td>
-              <td className="border-collapse border-t border-b border-[#E5E9EB] w-[200px]  h-[48px] flex items-center justify-center">
+              <td className="border-collapse border-t border-b border-[#E5E9EB] w-[170px]  h-[48px] flex items-center justify-center">
                 <p>{item.start}</p>
               </td>
-              <td className="border-collapse border-t border-b border-[#E5E9EB] w-[200px] h-[48px] flex items-center justify-center">
+              <td className="border-collapse border-t border-b border-[#E5E9EB] w-[170px] h-[48px] flex items-center justify-center">
                 <p>{item.end}</p>
               </td>
-              <td className="border-collapse border-t border-b border-[#E5E9EB] w-[200px ] flex items-center justify-center">
+              <td className="border-collapse border-t border-b border-[#E5E9EB] w-[170px ] flex items-center justify-center">
                 <div className="flex items-center justify-center gap-5">
                   <button className="h-min px-[16px] bg-[#e0efff] text-[#4094F7] rounded-[6px] ">
                     {item.condition}

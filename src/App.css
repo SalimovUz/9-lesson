@@ -1,0 +1,4 @@
+.sidebarr.active {
+display: none;
+transition: all 0.4s;  
+}
