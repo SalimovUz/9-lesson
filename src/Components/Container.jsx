@@ -1,7 +1,9 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import Header from './Header'
-import ListDiscount from './ListDiscount'
+import Status from './Status'
+import Top from './Top'
+import ActiveStatus from './ActiveStatus'
 
 const Container = () => {
   return (
@@ -9,8 +11,7 @@ const Container = () => {
       <Sidebar/>
 
       <div className='flex flex-col'>
-        <Header/>
-        <ListDiscount/>
+        
       </div>
     </div>
   )
