@@ -1,7 +1,9 @@
 import React from 'react'
 import Container from '../Components/Container'
 import Sidebar from '../Components/Sidebar'
-import Status from '../Components/Status'
+import Status from '../Components/YourComponent'
+import YourComponent from '../Components/YourComponent'
+import Header from '../Components/Header'
 
 const Aksiya = () => {
   return (
@@ -9,7 +11,8 @@ const Aksiya = () => {
       <Sidebar/>
 
       <div className='flex flex-col'>
-        <Status/>
+        <Header/>
+        <YourComponent/>
       </div>
     </div>
   )

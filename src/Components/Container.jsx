@@ -1,10 +1,7 @@
 import React from 'react'
 import Sidebar from './Sidebar'
 import Header from './Header'
-import Status from './Status'
-import Top from './Top'
-import ActiveStatus from './ActiveStatus'
-import ListDiscount from './ListDiscount'
+import YourComponent from './YourComponent'
 
 const Container = () => {
   return (
@@ -13,7 +10,7 @@ const Container = () => {
 
       <div className='flex flex-col'>
         {/* <ListDiscount/> */}
-        <Status/>
+        <YourComponent/>
       </div>
     </div>
   )

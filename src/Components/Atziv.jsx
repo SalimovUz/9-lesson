@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import like from "../../public/assets/like.svg";
-import DisLike from "../../public/assets/dislike.svg";
-import Points from "../../public/assets/points.svg";
+// import Like from "../../public/assets/like.svg";
+// import DisLike from "../../public/assets/dislike.svg";
+// import Points from "../../public/assets/points.svg";
 
 const Atziv = () => {
 const [order, setOrder] = useState(1)
@@ -26,7 +26,7 @@ const [order, setOrder] = useState(1)
             <span className="mx-3">😉</span> Курьер молодец
           </span>
           <div className="flex gap-[100px]">
-            <img src={like} alt="Like icon" />
+            <img src={Like} alt="Like icon" />
             <div className="flex gap-[50px]">
               <button className="bg-gray-300 text-blue-600 mt-6 w-[144px] h-[24px] hover:bg-sky-300 rounded font-bold ">
                 Активный
@@ -40,7 +40,7 @@ const [order, setOrder] = useState(1)
             <span className="mx-3">⚡️</span> Быстрая доставка
           </span>
           <div className="flex gap-[100px]">
-            <img src={like} alt="Like icon" />
+            <img src={Like} alt="Like icon" />
             <div className="flex gap-[50px]">
               <button className="bg-gray-300 text-blue-600 mt-6 w-[144px] h-[24px] hover:bg-sky-300 rounded font-bold ">
                 Активный
@@ -54,7 +54,7 @@ const [order, setOrder] = useState(1)
             <span className="mx-3">😋</span> Вкусная еда
           </span>
           <div className="flex gap-[100px]">
-            <img src={like} alt="Like icon" />
+            <img src={Like} alt="Like icon" />
             <div className="flex gap-[50px]">
               <button className="bg-gray-300 text-blue-600 mt-6 w-[144px] h-[24px] hover:bg-sky-300 rounded font-bold ">
                 Активный
