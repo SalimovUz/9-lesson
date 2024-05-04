@@ -6,6 +6,8 @@ import { IoStatsChart } from "react-icons/io5";
 import { RiMenuUnfold4Line2 } from "react-icons/ri";
 import { IoIosNotifications } from "react-icons/io";
 import { IoMdSettings } from "react-icons/io";
+import { NavLink } from "react-router-dom";
+import Banner from "../Pages/Banner";
 
 
 const Sidebar = () => {
@@ -37,15 +39,15 @@ const Sidebar = () => {
           </div>
 
           <ul className="flex flex-col items-center gap-5">
-            <li className="bg-blue-500 py-2 text-white rounded-lg px-4 text-bold text-lg w-full">
+            <NavLink to="/" className="bg-blue-500 py-2 text-white rounded-lg px-4 text-bold text-lg w-full">
               Акции
-            </li>
-            <li className="hover:bg-blue-500 py-2 text-black hover:text-white rounded-lg px-4 text-bold text-lg w-full transition-all duration-500">
+            </NavLink>
+            <NavLink to="/banner" className="hover:bg-blue-500 py-2 text-black hover:text-white rounded-lg px-4 text-bold text-lg w-full transition-all duration-500">
               Баннеры
-            </li>
-            <li className="hover:bg-blue-500 py-2 text-black hover:text-white rounded-lg px-4 text-bold text-lg w-full transition-all duration-500">
+            </NavLink>
+            <NavLink to="/believe" className="hover:bg-blue-500 py-2 text-black hover:text-white rounded-lg px-4 text-bold text-lg w-full transition-all duration-500">
               Отзывы
-            </li>
+            </NavLink>
 
             <select className="w-full px-4 py-2 text-lg" name="" id="">
               <option value="">Рассылка</option>

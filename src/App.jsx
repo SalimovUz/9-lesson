@@ -1,5 +1,6 @@
 import React from 'react'
 import Container from './Components/Container'
+import Banner from './Pages/Banner'
 
 const App = () => {
   return (

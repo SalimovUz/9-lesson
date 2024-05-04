@@ -25,7 +25,7 @@ const ListDiscount = () => {
           <div className="Banners  flex flex-col ">
             <div className="Banner flex items-center justify-between  border p-4 rounded">
               <div className="izobrajeniya flex gap-4 items-center">
-                <img src={BannerImg1} alt="photo" />
+                <img src={BannerImg1} alt="photo" className="w-[70%] h-[70%]" />
               </div>
               <p className="">Баннер1</p>
 
@@ -40,7 +40,7 @@ const ListDiscount = () => {
             </div>
             <div className="Banner flex items-center justify-between border p-4 rounded">
               <div className="izobrajeniya flex gap-4 items-center">
-                <img src={BannerImg2} alt="photo" />
+                <img src={BannerImg2} alt="photo" className="w-[70%] h-[70%]" />
               </div>
               <p className="">Баннер1</p>
 
@@ -55,7 +55,7 @@ const ListDiscount = () => {
             </div>
             <div className="Banner flex items-center justify-between border p-4 rounded">
               <div className="izobrajeniya flex gap-4 items-center">
-                <img src={BannerImg3} alt="photo" />
+                <img src={BannerImg3} alt="photo" className="w-[70%] h-[70%]" />
               </div>
               <p className="">Баннер1</p>
 
@@ -70,7 +70,7 @@ const ListDiscount = () => {
             </div>
             <div className="Banner flex items-center justify-between border p-4 rounded">
               <div className="izobrajeniya flex gap-4 items-center">
-                <img src={BannerImg4} alt="photo" />
+                <img src={BannerImg4} alt="photo" className="w-[70%] h-[70%]" />
               </div>
               <p className="">Баннер1</p>
 
@@ -85,7 +85,7 @@ const ListDiscount = () => {
             </div>
             <div className="Banner flex items-center justify-between border p-4 rounded">
               <div className="izobrajeniya flex gap-4 items-center">
-                <img src={BannerImg5} alt="photo" />
+                <img src={BannerImg5} alt="photo" className="w-[70%] h-[70%]" />
               </div>
               <p className="">Баннер1</p>
 
